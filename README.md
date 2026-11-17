@@ -80,7 +80,7 @@ Trabalhei com desenvolvimento front-end e aprendi a entender regras de negócio,
 | --- | --- |
 | **Back-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="32" height="32" /> Java &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" width="32" height="32" /> Spring Boot &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="32" height="32" /> Python |
 | **Front-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="32" height="32" /> React &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32" /> TypeScript &nbsp; <img src="https://cdn.simpleicons.org/nextdotjs/8B949E" alt="Next.js" width="32" height="32" /> Next.js |
-| **Data / analysis** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" /> PostgreSQL &nbsp; SQL <br /> <img src="https://cdn.simpleicons.org/powerbi/F2C811" alt="Power BI" width="32" height="32" /> Power BI &nbsp; 📊 Spreadsheets / data analysis |
+| **Data / analysis** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" /> PostgreSQL &nbsp; SQL <br /> <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg" alt="Power BI" width="32" height="32" /> Power BI &nbsp; 📊 Spreadsheets / data analysis |
 | **DevOps / tools** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="32" height="32" /> Docker &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="32" height="32" /> Git &nbsp; <img src="https://cdn.simpleicons.org/github/8B949E" alt="GitHub" width="32" height="32" /> GitHub <br /> <img src="https://cdn.simpleicons.org/vercel/8B949E" alt="Vercel" width="32" height="32" /> Vercel &nbsp; Deployment workflows |
 | **Automation** | <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" width="32" height="32" /> n8n |
 
@@ -114,3 +114,5 @@ Connect with me on LinkedIn or send me an email.
 **Contato:** fale comigo pelo LinkedIn ou envie um e-mail pelos botões acima.
 
 </details>
+
+<sub>Icons / Ícones: [Devicon](https://github.com/devicons/devicon) · [Simple Icons](https://github.com/simple-icons/simple-icons) · [Microsoft Power BI Icons](https://github.com/microsoft/PowerBI-Icons).</sub>
