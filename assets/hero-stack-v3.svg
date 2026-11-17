@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-labelledby="t d">
   <title id="t">Álvaro Simeão</title>
-  <desc id="d">Backend, automação e dados; logotipos de Java, Spring Boot, Python, n8n, Docker e PostgreSQL</desc>
+  <desc id="d">Back-end, IA aplicada e automação, com Java, Spring Boot, Python, n8n, Docker e PostgreSQL</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0D1117"/>
@@ -11,45 +11,68 @@
       <stop offset="1" stop-color="#38BDF8"/>
     </linearGradient>
   </defs>
+  <style>
+    @keyframes accent-breathe { 0%, 100% { opacity: .72; filter: drop-shadow(0 0 1px #38BDF8); } 50% { opacity: 1; filter: drop-shadow(0 0 7px #38BDF8); } }
+    @keyframes card-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+    @keyframes flow-travel { to { stroke-dashoffset: -40; } }
+    @keyframes node-pulse { 0%, 100% { opacity: .55; r: 4; } 50% { opacity: 1; r: 6; } }
+    .accent-line { animation: accent-breathe 3.2s ease-in-out infinite; }
+    .flow-route { animation: flow-travel 2.8s linear infinite; }
+    .flow-node { animation: node-pulse 1.8s ease-in-out infinite; }
+    .flow-node:nth-of-type(2) { animation-delay: .35s; }
+    .flow-node:nth-of-type(3) { animation-delay: .7s; }
+    .skill-card { transform-box: fill-box; transform-origin: center; animation: card-float 4s ease-in-out infinite; }
+    .skill-card:nth-of-type(2) { animation-delay: .25s; }
+    .skill-card:nth-of-type(3) { animation-delay: .5s; }
+    .skill-card:nth-of-type(4) { animation-delay: .75s; }
+    .skill-card:nth-of-type(5) { animation-delay: 1s; }
+    .skill-card:nth-of-type(6) { animation-delay: 1.25s; }
+    @media (prefers-reduced-motion: reduce) { .accent-line, .flow-route, .flow-node, .skill-card { animation: none; } }
+  </style>
   <rect width="1280" height="360" rx="20" fill="url(#bg)"/>
-  <rect x="540" y="168" width="200" height="4" rx="2" fill="url(#accent)"/>
+  <path class="accent-line flow-route" d="M495 170H785" fill="none" stroke="url(#accent)" stroke-width="3" stroke-dasharray="12 8" stroke-linecap="round"/>
+  <g fill="#38BDF8">
+    <circle class="flow-node" cx="540" cy="170" r="4"/>
+    <circle class="flow-node" cx="640" cy="170" r="4"/>
+    <circle class="flow-node" cx="740" cy="170" r="4"/>
+  </g>
 
   <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
     <text x="640" y="104" font-size="54" font-weight="700" fill="#F0F6FC">Álvaro Simeão</text>
-    <text x="640" y="146" font-size="22" fill="#9DA7B3">Backend · Automação · Análise de dados</text>
+    <text x="640" y="146" font-size="22" fill="#9DA7B3">Back-end · IA aplicada · Automação</text>
 
     <!-- Tiles: 6 x 150 + 5 x 24 = 1020, start x = 130 -->
-    <g transform="translate(130,200)">
+    <g class="skill-card" transform="translate(130,200)">
       <rect width="150" height="110" rx="14" fill="#161B22" stroke="#ED8B00" stroke-opacity=".6"/>
       <circle cx="75" cy="44" r="25" fill="#ED8B00"/>
       <text x="75" y="53" font-size="24" font-weight="700" fill="#fff">Ja</text>
       <text x="75" y="94" font-size="16" fill="#F0F6FC">Java</text>
     </g>
-    <g transform="translate(304,200)">
+    <g class="skill-card" transform="translate(304,200)">
       <rect width="150" height="110" rx="14" fill="#161B22" stroke="#6DB33F" stroke-opacity=".6"/>
       <circle cx="75" cy="44" r="25" fill="#6DB33F"/>
       <text x="75" y="53" font-size="22" font-weight="700" fill="#fff">SB</text>
       <text x="75" y="94" font-size="16" fill="#F0F6FC">Spring Boot</text>
     </g>
-    <g transform="translate(478,200)">
+    <g class="skill-card" transform="translate(478,200)">
       <rect width="150" height="110" rx="14" fill="#161B22" stroke="#3776AB" stroke-opacity=".7"/>
       <circle cx="75" cy="44" r="25" fill="#3776AB"/>
       <text x="75" y="53" font-size="24" font-weight="700" fill="#FFD43B">Py</text>
       <text x="75" y="94" font-size="16" fill="#F0F6FC">Python</text>
     </g>
-    <g transform="translate(652,200)">
+    <g class="skill-card" transform="translate(652,200)">
       <rect width="150" height="110" rx="14" fill="#161B22" stroke="#EA4B71" stroke-opacity=".6"/>
       <circle cx="75" cy="44" r="25" fill="#EA4B71"/>
       <text x="75" y="52" font-size="20" font-weight="700" fill="#fff">n8n</text>
       <text x="75" y="94" font-size="16" fill="#F0F6FC">n8n</text>
     </g>
-    <g transform="translate(826,200)">
+    <g class="skill-card" transform="translate(826,200)">
       <rect width="150" height="110" rx="14" fill="#161B22" stroke="#2496ED" stroke-opacity=".6"/>
       <circle cx="75" cy="44" r="25" fill="#2496ED"/>
       <text x="75" y="53" font-size="24" font-weight="700" fill="#fff">Do</text>
       <text x="75" y="94" font-size="16" fill="#F0F6FC">Docker</text>
     </g>
-    <g transform="translate(1000,200)">
+    <g class="skill-card" transform="translate(1000,200)">
       <rect width="150" height="110" rx="14" fill="#161B22" stroke="#4169E1" stroke-opacity=".7"/>
       <circle cx="75" cy="44" r="25" fill="#4169E1"/>
       <text x="75" y="53" font-size="24" font-weight="700" fill="#fff">Pg</text>
