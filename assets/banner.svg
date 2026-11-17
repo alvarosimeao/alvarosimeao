@@ -1,29 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
-  <title id="title">Álvaro Simeão</title>
-  <desc id="desc">Front-end na prática, backend Java em evolução.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Álvaro Simeão — Backend, Automation, Data</title>
+  <desc id="desc">A code-inspired header highlighting Java, Spring Boot, Python, n8n, Docker and PostgreSQL.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#10162f"/>
-      <stop offset="0.52" stop-color="#252257"/>
-      <stop offset="1" stop-color="#4b2163"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8b9dff"/>
-      <stop offset="1" stop-color="#f7a1ce"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090d17"/><stop offset="1" stop-color="#151927"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#65e5bb"/><stop offset="0.5" stop-color="#76b9ff"/><stop offset="1" stop-color="#d39cff"/></linearGradient>
   </defs>
-  <rect width="1200" height="260" rx="20" fill="url(#bg)"/>
-  <rect width="1200" height="260" rx="20" fill="url(#grid)"/>
-  <circle cx="1050" cy="70" r="180" fill="#f7a1ce" opacity="0.08"/>
-  <circle cx="1110" cy="205" r="145" fill="#8b9dff" opacity="0.12"/>
-  <path d="M 784 215 C 886 137, 936 272, 1058 145 S 1200 152, 1240 85" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.72"/>
-  <circle cx="1038" cy="164" r="7" fill="#f7a1ce"/>
-  <rect x="64" y="44" width="7" height="150" rx="3.5" fill="url(#accent)"/>
-  <text x="94" y="111" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Álvaro Simeão</text>
-  <text x="96" y="156" fill="#d7d9ff" font-family="Arial, Helvetica, sans-serif" font-size="26">Front-end na prática · Backend Java em evolução</text>
-  <rect x="94" y="184" width="310" height="34" rx="17" fill="#ffffff" fill-opacity="0.13" stroke="#ffffff" stroke-opacity="0.26"/>
-  <text x="115" y="207" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">ADS · APIs · Dados</text>
+  <rect x="1" y="1" width="1198" height="388" rx="20" fill="url(#bg)" stroke="#344055" stroke-width="2"/>
+  <path d="M28 47V25h22 M1150 25h22v22 M28 342v22h22 M1150 364h22v-22" fill="none" stroke="#3f5369" stroke-width="2"/>
+  <text x="60" y="43" fill="#7189a2" font-family="Consolas,Menlo,monospace" font-size="14">alvaro_simeao.py</text>
+  <text x="915" y="43" fill="#7189a2" font-family="Consolas,Menlo,monospace" font-size="14">PROFILE / 2026</text>
+  <rect x="60" y="68" width="1075" height="2" rx="1" fill="url(#line)" opacity=".75"/>
+  <text x="64" y="111" fill="#b5a4ff" font-family="Consolas,Menlo,monospace" font-size="23">class</text>
+  <text x="145" y="111" fill="#ffffff" font-family="Consolas,Menlo,monospace" font-size="23" font-weight="bold">AlvaroSimeao</text>
+  <text x="335" y="111" fill="#b5a4ff" font-family="Consolas,Menlo,monospace" font-size="23">:</text>
+  <text x="94" y="147" fill="#79d9ff" font-family="Consolas,Menlo,monospace" font-size="21">focus</text>
+  <text x="165" y="147" fill="#dce5ef" font-family="Consolas,Menlo,monospace" font-size="21">=</text>
+  <text x="190" y="147" fill="#a6e3a1" font-family="Consolas,Menlo,monospace" font-size="21">"backend · automation · data"</text>
+  <text x="94" y="182" fill="#79d9ff" font-family="Consolas,Menlo,monospace" font-size="21">stack</text>
+  <text x="165" y="182" fill="#dce5ef" font-family="Consolas,Menlo,monospace" font-size="21">=</text>
+  <text x="190" y="182" fill="#a6e3a1" font-family="Consolas,Menlo,monospace" font-size="21">["Java", "Spring Boot", "Python", "n8n"]</text>
+  <rect x="60" y="212" width="1080" height="2" rx="1" fill="url(#line)" opacity=".45"/>
+  <text x="64" y="244" fill="#7189a2" font-family="Consolas,Menlo,monospace" font-size="13" letter-spacing="3">SELECTED STACK</text>
+  <g font-family="Arial,Helvetica,sans-serif" text-anchor="middle">
+    <g transform="translate(62 264)"><rect width="166" height="88" rx="14" fill="#151b29" stroke="#344055"/><circle cx="30" cy="31" r="17" fill="#e76f51"/><text x="30" y="37" fill="#fff" font-size="19" font-weight="bold">J</text><text x="85" y="70" fill="#e6edf6" font-size="17">Java</text></g>
+    <g transform="translate(244 264)"><rect width="166" height="88" rx="14" fill="#151b29" stroke="#344055"/><circle cx="30" cy="31" r="17" fill="#72b943"/><text x="30" y="37" fill="#fff" font-size="17" font-weight="bold">S</text><text x="85" y="70" fill="#e6edf6" font-size="17">Spring Boot</text></g>
+    <g transform="translate(426 264)"><rect width="166" height="88" rx="14" fill="#151b29" stroke="#344055"/><circle cx="30" cy="31" r="17" fill="#3d82b8"/><text x="30" y="37" fill="#fff" font-size="14" font-weight="bold">Py</text><text x="85" y="70" fill="#e6edf6" font-size="17">Python</text></g>
+    <g transform="translate(608 264)"><rect width="166" height="88" rx="14" fill="#151b29" stroke="#344055"/><circle cx="30" cy="31" r="17" fill="#ea4b71"/><text x="30" y="37" fill="#fff" font-size="15" font-weight="bold">n8</text><text x="85" y="70" fill="#e6edf6" font-size="17">n8n</text></g>
+    <g transform="translate(790 264)"><rect width="166" height="88" rx="14" fill="#151b29" stroke="#344055"/><circle cx="30" cy="31" r="17" fill="#2496ed"/><text x="30" y="37" fill="#fff" font-size="15" font-weight="bold">D</text><text x="85" y="70" fill="#e6edf6" font-size="17">Docker</text></g>
+    <g transform="translate(972 264)"><rect width="166" height="88" rx="14" fill="#151b29" stroke="#344055"/><circle cx="30" cy="31" r="17" fill="#386a97"/><text x="30" y="37" fill="#fff" font-size="15" font-weight="bold">DB</text><text x="85" y="70" fill="#e6edf6" font-size="17">PostgreSQL</text></g>
+  </g>
 </svg>
