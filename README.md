@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-stack-v3.svg?v=00078056aacf87a31b36c30781aba3fda030142e" alt="Álvaro Simeão — back-end, IA aplicada e automação; tecnologias: Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
+<img src="assets/hero-stack-v3.svg?v=00078056aacf87a31b36c30781aba3fda030142e" alt="Álvaro Simeão — back-end, IA aplicada e automação; logos oficiais de Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
 
 <br />
 
@@ -14,7 +14,7 @@
 
 [🙋 About / Sobre](#about) · [🎯 Open to work / Vagas](#open-to-work) · [💼 Experience / Experiência](#experience) · [🎓 Certifications / Certificações](#certifications)
 <br />
-[🚀 Selected work / Projetos](#selected-work) · [🛠️ Stack / Tecnologias](#tech-stack) · [📬 Contact / Contato](#contact)
+[🚀 Projects / Projetos](#featured-projects) · [🛠️ Stack / Tecnologias](#tech-stack) · [📬 Contact / Contato](#contact)
 
 </div>
 
@@ -22,18 +22,18 @@
 
 ## 🙋 About
 
-### Backend development · Applied AI · Automation
+### Backend development · Automation · Data analysis
 
-I study **Analysis and Systems Development at Universidade Ceuma**. I build with **Java, Spring Boot, Python, databases, and automation**, drawing on hands-on front-end experience. I am developing my skills in **applied AI and intelligent agents** alongside backend projects.
+I study **Analysis and Systems Development at Universidade Ceuma**. I build with **Java, Spring Boot, Python, databases, and automation**, drawing on hands-on front-end experience.
 
 I turn business requirements into clear, testable software. The projects below are learning projects with instructions, evidence, and documented limitations.
 
 <details>
 <summary>🇧🇷 pt-BR</summary>
 
-### Desenvolvimento backend · IA aplicada · Automação
+### Desenvolvimento backend · Automação · Análise de dados
 
-Estudo **Análise e Desenvolvimento de Sistemas na Universidade Ceuma**. Desenvolvo com **Java, Spring Boot, Python, bancos de dados e automação**, apoiado pela experiência prática em front-end. Estou aprofundando meus conhecimentos em **IA aplicada e agentes inteligentes** junto aos projetos de back-end.
+Estudo **Análise e Desenvolvimento de Sistemas na Universidade Ceuma**. Desenvolvo com **Java, Spring Boot, Python, bancos de dados e automação**, apoiado pela experiência prática em front-end.
 
 Transformo requisitos de negócio em software claro e verificável. Os projetos abaixo são trabalhos de estudo com instruções, evidências e limitações documentadas.
 
@@ -112,61 +112,37 @@ Minhas [certificações no LinkedIn](https://www.linkedin.com/in/alvaro-sime%C3%
 
 </details>
 
-## 🚀 Selected work
+## 🚀 Featured projects
 
-These are learning projects. Each README explains the setup and how to verify the result; the diagrams below summarize the parts I worked on.
+| Project | What it shows | How to verify |
+| --- | --- | --- |
+| **[Student API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura)** | Java, Spring Boot, PostgreSQL, REST endpoints, DTOs, and separation of responsibilities. | [Run and call the API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura#como-executar-a-api) |
+| **[Java payment simulator](https://github.com/alvarosimeao/sistema-pagamentos-java)** | Object-oriented design, `BigDecimal`, payment validation, and executable tests. No real transactions. | [Run the tests](https://github.com/alvarosimeao/sistema-pagamentos-java#como-testar) |
+| **[Orders and inventory data model](https://github.com/alvarosimeao/Entregaveis_Backend)** | PostgreSQL modeling, indexes, permissions, and transactions in an academic scenario. | [Run the SQL scripts](https://github.com/alvarosimeao/Entregaveis_Backend/blob/main/Modulo_Backend/Banco_de_dados/entregavel16/README.md) |
 
-### [Student API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura) · Java, Spring Boot, PostgreSQL
+<details>
+<summary>🔍 Technical decisions and current limits</summary>
 
-I built a REST API for student records, practicing endpoint design, DTOs, persistence, and separation between API data and stored entities. The project is an academic exercise and still needs automated tests, input validation, and a specific response for a missing student.
-
-<div align="center"><img src="assets/project-student-api.svg" width="100%" alt="Flow from a REST request through Java and Spring Boot and DTOs to PostgreSQL persistence." /></div>
-
-[Run and call the API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura#como-executar-a-api)
-
-<details><summary>🇧🇷 pt-BR</summary>
-
-Construí uma API REST para cadastro de alunos, praticando desenho de endpoints, DTOs, persistência e separação entre os dados da API e as entidades armazenadas. É um exercício acadêmico e ainda precisa de testes automatizados, validação de entrada e uma resposta específica para aluno inexistente.
-
-<div align="center"><img src="assets/project-student-api-pt.svg" width="100%" alt="Fluxo da API: uma requisição REST passa pelo Java e Spring Boot e pelos DTOs até a persistência no PostgreSQL." /></div>
-
-[Executar e chamar a API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura#como-executar-a-api)
+- **Student API:** DTOs separate API data from the persisted entity. It still needs automated tests, input validation, and specific HTTP handling for missing students.
+- **Payment simulator:** `BigDecimal` handles monetary values; executable tests cover approvals, refusals, and repeated processing. It has no persistence or banking integration.
+- **Orders and inventory:** the order item stores the agreed price to preserve history; a transaction prevents partial orders when stock is insufficient. The sample data is too small to support performance claims.
 
 </details>
 
-### [Java payment simulator](https://github.com/alvarosimeao/sistema-pagamentos-java) · OOP, `BigDecimal`, tests
+<details>
+<summary>🇧🇷 pt-BR</summary>
 
-I organized a console simulation for Pix, debit, and credit payments around shared and method-specific rules. It validates positive amounts and available balance or credit limit, prevents processing the same payment twice, and includes executable tests. It does not move real money or connect to a bank.
+| Projeto | O que mostra | Como verificar |
+| --- | --- | --- |
+| **[API de alunos](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura)** | Java, Spring Boot, PostgreSQL, endpoints REST, DTOs e separação de responsabilidades. | [Executar e chamar a API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura#como-executar-a-api) |
+| **[Simulador de pagamentos em Java](https://github.com/alvarosimeao/sistema-pagamentos-java)** | Orientação a objetos, `BigDecimal`, validações e testes executáveis. Não processa transações reais. | [Executar os testes](https://github.com/alvarosimeao/sistema-pagamentos-java#como-testar) |
+| **[Modelo de pedidos e estoque](https://github.com/alvarosimeao/Entregaveis_Backend)** | Modelagem PostgreSQL, índices, permissões e transações em cenário acadêmico. | [Executar os scripts SQL](https://github.com/alvarosimeao/Entregaveis_Backend/blob/main/Modulo_Backend/Banco_de_dados/entregavel16/README.md) |
 
-<div align="center"><img src="assets/project-payments.svg" width="100%" alt="Pix, debit, and credit payment types pass through BigDecimal and validation rules before an approved or declined result." /></div>
+**Decisões técnicas e limites atuais**
 
-[Run the tests](https://github.com/alvarosimeao/sistema-pagamentos-java#como-testar)
-
-<details><summary>🇧🇷 pt-BR</summary>
-
-Organizei uma simulação de pagamentos por Pix, débito e crédito no console, separando regras comuns e específicas de cada modalidade. O programa valida valores positivos e saldo ou limite disponível, impede que o mesmo pagamento seja processado duas vezes e inclui testes executáveis. Não movimenta dinheiro nem se conecta a um banco.
-
-<div align="center"><img src="assets/project-payments-pt.svg" width="100%" alt="Pix, débito e crédito passam por valores monetários e regras de validação até um resultado aprovado ou recusado." /></div>
-
-[Executar os testes](https://github.com/alvarosimeao/sistema-pagamentos-java#como-testar)
-
-</details>
-
-### [Orders and inventory data model](https://github.com/alvarosimeao/Entregaveis_Backend) · PostgreSQL, SQL
-
-This coursework explores relational modeling, indexes, permissions, and transactions in an orders-and-stock scenario. The order item keeps the agreed price for historical accuracy, and a transaction prevents a partial order when stock is insufficient. The sample dataset is small, so I make no performance claims.
-
-<div align="center"><img src="assets/project-data-model.svg" width="100%" alt="Orders, order items, and inventory connected by a transaction that prevents partial orders." /></div>
-
-[Run the SQL scripts](https://github.com/alvarosimeao/Entregaveis_Backend/blob/main/Modulo_Backend/Banco_de_dados/entregavel16/README.md)
-
-<details><summary>🇧🇷 pt-BR</summary>
-
-Este trabalho de curso explora modelagem relacional, índices, permissões e transações em um cenário de pedidos e estoque. O item do pedido mantém o preço acordado para preservar o histórico, e uma transação impede um pedido parcial quando não há estoque suficiente. A base de exemplo é pequena, então não faço alegações de desempenho.
-
-<div align="center"><img src="assets/project-data-model-pt.svg" width="100%" alt="Pedidos, itens e estoque conectados por uma transação que evita pedidos parciais." /></div>
-
-[Executar os scripts SQL](https://github.com/alvarosimeao/Entregaveis_Backend/blob/main/Modulo_Backend/Banco_de_dados/entregavel16/README.md)
+- **API de alunos:** DTOs separam os dados da API da entidade persistida. Ainda faltam testes automatizados, validação de entrada e resposta HTTP específica para aluno inexistente.
+- **Simulador de pagamentos:** `BigDecimal` representa valores monetários; testes executáveis cobrem aprovações, recusas e processamento repetido. Não há persistência ou integração bancária.
+- **Pedidos e estoque:** o item guarda o preço contratado para preservar o histórico; uma transação impede pedidos parciais quando falta estoque. Os dados de exemplo são pequenos demais para sustentar alegações de desempenho.
 
 </details>
 
@@ -177,7 +153,7 @@ Este trabalho de curso explora modelagem relacional, índices, permissões e tra
 | **Back-end** | <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="28" height="28" />&nbsp;Java &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" width="28" height="28" />&nbsp;Spring Boot &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="28" height="28" />&nbsp;Python |
 | **Front-end** | <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="28" height="28" />&nbsp;React &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="28" height="28" />&nbsp;TypeScript &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.simpleicons.org/nextdotjs/8B949E" alt="Next.js" width="28" height="28" />&nbsp;Next.js &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="28" height="28" />&nbsp;Tailwind CSS |
 | **Data / analysis** | <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="28" height="28" />&nbsp;PostgreSQL &nbsp;&nbsp; <img align="absmiddle" src="assets/sql.svg" alt="SQL" width="28" height="28" />&nbsp;SQL &nbsp;&nbsp; <img align="absmiddle" src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg" alt="Power BI" width="28" height="28" />&nbsp;Power BI &nbsp;&nbsp; <img align="absmiddle" src="assets/excel.svg" alt="Microsoft Excel" width="28" height="28" />&nbsp;Excel |
-| **DevOps / tools** | <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="28" height="28" />&nbsp;Docker &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="28" height="28" />&nbsp;Git &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.simpleicons.org/github/8B949E" alt="GitHub" width="28" height="28" />&nbsp;GitHub &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" width="28" height="28" />&nbsp;Postman <br /> <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" width="28" height="28" />&nbsp;VS Code &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" width="28" height="28" />&nbsp;IntelliJ IDEA &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.simpleicons.org/vercel/8B949E" alt="Vercel" width="28" height="28" />&nbsp;Vercel (deploy) |
+| **DevOps / tools** | <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="28" height="28" />&nbsp;Docker &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="28" height="28" />&nbsp;Git &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.simpleicons.org/github/8B949E" alt="GitHub" width="28" height="28" />&nbsp;GitHub &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" alt="Postman" width="28" height="28" />&nbsp;Postman <br /> <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" width="28" height="28" />&nbsp;VS Code &nbsp;&nbsp; <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-original.svg" alt="IntelliJ IDEA" width="28" height="28" />&nbsp;IntelliJ IDEA &nbsp;&nbsp; <img align="absmiddle" src="assets/vercel.svg" alt="Vercel logo" width="28" height="28" />&nbsp;Deployment workflows |
 | **Automation / AI** | <img align="absmiddle" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/n8n/n8n-original.svg" alt="n8n" width="28" height="28" />&nbsp;n8n &nbsp;&nbsp; 🤖&nbsp;AI agents and subagents |
 
 <details>
@@ -216,4 +192,5 @@ Connect with me on LinkedIn or send me an email.
 <div align="center">
 <sub>Icons / Ícones: <a href="https://github.com/devicons/devicon">Devicon</a> · <a href="https://github.com/simple-icons/simple-icons">Simple Icons</a> · <a href="https://github.com/microsoft/PowerBI-Icons">Microsoft Power BI Icons</a> · <a href="https://github.com/DamoBird365/microsoft-cloud-icons">Microsoft Cloud Icons</a>.</sub>
 </div>
+
 
