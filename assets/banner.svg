@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Álvaro Simeão</title>
+  <desc id="desc">Front-end na prática, backend Java em evolução.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10162f"/>
+      <stop offset="0.52" stop-color="#252257"/>
+      <stop offset="1" stop-color="#4b2163"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b9dff"/>
+      <stop offset="1" stop-color="#f7a1ce"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="20" fill="url(#grid)"/>
+  <circle cx="1050" cy="70" r="180" fill="#f7a1ce" opacity="0.08"/>
+  <circle cx="1110" cy="205" r="145" fill="#8b9dff" opacity="0.12"/>
+  <path d="M 784 215 C 886 137, 936 272, 1058 145 S 1200 152, 1240 85" fill="none" stroke="url(#accent)" stroke-width="4" opacity="0.72"/>
+  <circle cx="1038" cy="164" r="7" fill="#f7a1ce"/>
+  <rect x="64" y="44" width="7" height="150" rx="3.5" fill="url(#accent)"/>
+  <text x="94" y="111" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="700">Álvaro Simeão</text>
+  <text x="96" y="156" fill="#d7d9ff" font-family="Arial, Helvetica, sans-serif" font-size="26">Front-end na prática · Backend Java em evolução</text>
+  <rect x="94" y="184" width="310" height="34" rx="17" fill="#ffffff" fill-opacity="0.13" stroke="#ffffff" stroke-opacity="0.26"/>
+  <text x="115" y="207" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600">ADS · APIs · Dados</text>
+</svg>
