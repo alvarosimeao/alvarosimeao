@@ -1,29 +1,27 @@
 <div align="center">
 
-<img src="assets/hero-stack.svg" alt="Álvaro Simeão — backend, automation and data" width="100%" />
+<img src="assets/hero-stack-v2.svg" alt="Álvaro Simeão — backend, automação e dados; logotipos de Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
 
-[About](#about) · [Experience](#experience) · [Projects](#featured-projects) · [Tech stack](#tech-stack) · [Contact](#contact)
+[About / Sobre](#about) · [Experience / Experiência](#experience) · [Projects / Projetos](#featured-projects) · [Stack / Tecnologias](#tech-stack) · [Contact / Contato](#contact)
 
 </div>
 
 ## About
 
-I am an **Analysis and Systems Development student at Universidade Ceuma**, building my path in backend development with **Java, Spring Boot, Python, databases, and automation**. I also have hands-on experience in front-end development.
+**Backend development · Automation · Data analysis**
 
-I like turning business requirements into clear, testable software. The projects below are learning projects: their READMEs explain what I built, how to run or verify it, and what is still missing.
+I study **Analysis and Systems Development at Universidade Ceuma**. I build with **Java, Spring Boot, Python, databases, and automation**, drawing on hands-on front-end experience.
+
+I turn business requirements into clear, testable software. The projects below are learning projects with instructions, evidence, and documented limitations.
 
 <details>
-<summary>🇧🇷 Ler apresentação em português</summary>
+<summary>pt-BR</summary>
 
-Sou estudante de **Análise e Desenvolvimento de Sistemas na Universidade Ceuma** e estou construindo minha trajetória em desenvolvimento backend com **Java, Spring Boot, Python, bancos de dados e automação**. Também tenho experiência prática em desenvolvimento front-end.
+**Desenvolvimento backend · Automação · Análise de dados**
 
-Gosto de transformar regras de negócio em software claro e verificável. Os projetos abaixo são trabalhos de estudo: seus READMEs explicam o que construí, como executar ou verificar e o que ainda falta.
+Estudo **Análise e Desenvolvimento de Sistemas na Universidade Ceuma**. Desenvolvo com **Java, Spring Boot, Python, bancos de dados e automação**, apoiado pela experiência prática em front-end.
 
-**Experiência:** trabalhei como Jovem Aprendiz em desenvolvimento na **Oxygeni, da Universidade Ceuma**. Nesse período, aprendi sobre regras de negócio, fluxo de deploy e comunicação clara com a equipe.
-
-**Projetos:** [API de alunos](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura) · [Simulador de pagamentos](https://github.com/alvarosimeao/sistema-pagamentos-java) · [Pedidos e estoque](https://github.com/alvarosimeao/Entregaveis_Backend).
-
-**Tecnologias:** Java, Spring Boot, Python, n8n, SQL, PostgreSQL, Docker, Git, GitHub e análise de dados com planilhas. Também uso TypeScript, React e Next.js em front-end.
+Transformo requisitos de negócio em software claro e verificável. Os projetos abaixo são trabalhos de estudo com instruções, evidências e limitações documentadas.
 
 </details>
 
@@ -32,6 +30,15 @@ Gosto de transformar regras de negócio em software claro e verificável. Os pro
 **Software Development Apprentice · Oxygeni, Universidade Ceuma**
 
 I worked in a front-end development role and learned how to understand business rules, follow deployment workflows, and communicate implementation details clearly with the team. This experience shaped how I approach software beyond the code: understanding the need, explaining decisions, and checking the result.
+
+<details>
+<summary>pt-BR</summary>
+
+**Jovem Aprendiz em desenvolvimento · Oxygeni, Universidade Ceuma**
+
+Trabalhei com desenvolvimento front-end e aprendi a entender regras de negócio, acompanhar fluxos de deploy e comunicar detalhes da implementação com clareza para a equipe. Essa experiência moldou minha forma de trabalhar: compreender a necessidade, explicar decisões e conferir o resultado.
+
+</details>
 
 ## Featured projects
 
@@ -50,17 +57,49 @@ I worked in a front-end development role and learned how to understand business 
 
 </details>
 
+<details>
+<summary>pt-BR</summary>
+
+| Projeto | O que mostra | Como verificar |
+| --- | --- | --- |
+| **[API de alunos](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura)** | Java, Spring Boot, PostgreSQL, endpoints REST, DTOs e separação de responsabilidades. | [Executar e chamar a API](https://github.com/alvarosimeao/Entregaveis_Api_Arquitetura#como-executar-a-api) |
+| **[Simulador de pagamentos em Java](https://github.com/alvarosimeao/sistema-pagamentos-java)** | Orientação a objetos, `BigDecimal`, validações e testes executáveis. Não processa transações reais. | [Executar os testes](https://github.com/alvarosimeao/sistema-pagamentos-java#como-testar) |
+| **[Modelo de pedidos e estoque](https://github.com/alvarosimeao/Entregaveis_Backend)** | Modelagem PostgreSQL, índices, permissões e transações em cenário acadêmico. | [Executar os scripts SQL](https://github.com/alvarosimeao/Entregaveis_Backend/blob/main/Modulo_Backend/Banco_de_dados/entregavel16/README.md) |
+
+**Decisões técnicas e limites atuais**
+
+- **API de alunos:** DTOs separam os dados da API da entidade persistida. Ainda faltam testes automatizados, validação de entrada e resposta HTTP específica para aluno inexistente.
+- **Simulador de pagamentos:** `BigDecimal` representa valores monetários; testes executáveis cobrem aprovações, recusas e processamento repetido. Não há persistência ou integração bancária.
+- **Pedidos e estoque:** o item guarda o preço contratado para preservar o histórico; uma transação impede pedidos parciais quando falta estoque. Os dados de exemplo são pequenos demais para sustentar alegações de desempenho.
+
+</details>
+
 ## Tech stack
 
 | Area | Tools and practices |
 | --- | --- |
-| **Back-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="28" height="28" /> Java &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" width="28" height="28" /> Spring Boot &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="28" height="28" /> Python |
-| **Front-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="28" height="28" /> React &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="28" height="28" /> TypeScript &nbsp; <img src="https://cdn.simpleicons.org/nextdotjs/8B949E" alt="Next.js" width="28" height="28" /> Next.js |
-| **Data / analysis** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="28" height="28" /> PostgreSQL &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL" width="28" height="28" /> SQL &nbsp; 📊 Spreadsheets / data analysis |
-| **DevOps / tools** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="28" height="28" /> Docker &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="28" height="28" /> Git &nbsp; <img src="https://cdn.simpleicons.org/github/8B949E" alt="GitHub" width="28" height="28" /> GitHub &nbsp; 🚀 Deployment workflows |
-| **Automation** | <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" width="28" height="28" /> n8n |
+| **Back-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="32" height="32" /> Java &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" width="32" height="32" /> Spring Boot &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="32" height="32" /> Python |
+| **Front-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="32" height="32" /> React &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="32" height="32" /> TypeScript &nbsp; <img src="https://cdn.simpleicons.org/nextdotjs/8B949E" alt="Next.js" width="32" height="32" /> Next.js |
+| **Data / analysis** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="32" height="32" /> PostgreSQL &nbsp; SQL <br /> <img src="https://cdn.simpleicons.org/powerbi/F2C811" alt="Power BI" width="32" height="32" /> Power BI &nbsp; 📊 Spreadsheets / data analysis |
+| **DevOps / tools** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="32" height="32" /> Docker &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="32" height="32" /> Git &nbsp; <img src="https://cdn.simpleicons.org/github/8B949E" alt="GitHub" width="32" height="32" /> GitHub <br /> <img src="https://cdn.simpleicons.org/vercel/8B949E" alt="Vercel" width="32" height="32" /> Vercel &nbsp; Deployment workflows |
+| **Automation** | <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" width="32" height="32" /> n8n |
+
+<details>
+<summary>pt-BR</summary>
+
+| Área | Ferramentas e práticas |
+| --- | --- |
+| **Back-end** | Java · Spring Boot · Python |
+| **Front-end** | React · TypeScript · Next.js |
+| **Dados / análise** | PostgreSQL · SQL · Power BI · planilhas e análise de dados |
+| **DevOps / ferramentas** | Docker · Git · GitHub · Vercel · fluxos de deploy |
+| **Automação** | n8n |
+
+</details>
 
 ## Contact
+
+Connect with me on LinkedIn or send me an email.
 
 <div align="center">
 
@@ -68,3 +107,10 @@ I worked in a front-end development role and learned how to understand business 
 <a href="mailto:alvarosimeao21@gmail.com"><img src="assets/email.svg" alt="Email Álvaro Simeão" height="44" /></a>
 
 </div>
+
+<details>
+<summary>pt-BR</summary>
+
+**Contato:** fale comigo pelo LinkedIn ou envie um e-mail pelos botões acima.
+
+</details>
