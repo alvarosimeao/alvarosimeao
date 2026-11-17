@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Álvaro Simeão — backend, automation and data" width="100%" />
+<img src="assets/hero-stack.svg" alt="Álvaro Simeão — backend, automation and data" width="100%" />
 
 [About](#about) · [Experience](#experience) · [Projects](#featured-projects) · [Tech stack](#tech-stack) · [Contact](#contact)
 
@@ -55,9 +55,9 @@ I worked in a front-end development role and learned how to understand business 
 | Area | Tools and practices |
 | --- | --- |
 | **Back-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="28" height="28" /> Java &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot" width="28" height="28" /> Spring Boot &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="28" height="28" /> Python |
-| **Front-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="28" height="28" /> React &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="28" height="28" /> TypeScript &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" width="28" height="28" /> Next.js |
+| **Front-end** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" width="28" height="28" /> React &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" width="28" height="28" /> TypeScript &nbsp; <img src="https://cdn.simpleicons.org/nextdotjs/8B949E" alt="Next.js" width="28" height="28" /> Next.js |
 | **Data / analysis** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" width="28" height="28" /> PostgreSQL &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" alt="SQL" width="28" height="28" /> SQL &nbsp; 📊 Spreadsheets / data analysis |
-| **DevOps / tools** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="28" height="28" /> Docker &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="28" height="28" /> Git &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="GitHub" width="28" height="28" /> GitHub &nbsp; 🚀 Deployment workflows |
+| **DevOps / tools** | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="28" height="28" /> Docker &nbsp; <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" width="28" height="28" /> Git &nbsp; <img src="https://cdn.simpleicons.org/github/8B949E" alt="GitHub" width="28" height="28" /> GitHub &nbsp; 🚀 Deployment workflows |
 | **Automation** | <img src="https://cdn.simpleicons.org/n8n/EA4B71" alt="n8n" width="28" height="28" /> n8n |
 
 ## Contact
