@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-stack-v3.svg" alt="Álvaro Simeão — back-end, IA aplicada e automação; tecnologias: Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
+<img src="assets/hero-stack-v3.svg?v=00078056aacf87a31b36c30781aba3fda030142e" alt="Álvaro Simeão — back-end, IA aplicada e automação; tecnologias: Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
 
 <br />
 
