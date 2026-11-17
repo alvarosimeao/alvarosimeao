@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178" height="44" viewBox="0 0 178 44" role="img" aria-label="E-mail">
+  <rect width="178" height="44" rx="10" fill="#30345f"/>
+  <rect x="13" y="12" width="27" height="20" rx="3" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <path d="M 15 15 l 11.5 9 11.5 -9" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="55" y="29" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">E-mail</text>
+  <path d="M 151 22 h 10 m -5 -5 l 5 5 -5 5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
