@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero-stack-v3.svg?v=00078056aacf87a31b36c30781aba3fda030142e" alt="Álvaro Simeão — back-end, IA aplicada e automação; logos oficiais de Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
+<img src="assets/hero-stack-v3.svg?v=89d1a9b370ffd294bdf1d5b0f48def30498af2e2" alt="Álvaro Simeão — back-end, IA aplicada e automação; cards estáticos de Java, Spring Boot, Python, n8n, Docker e PostgreSQL" width="100%" />
 
 <br />
 
@@ -8,7 +8,6 @@
 ![Java](https://img.shields.io/badge/Java-Spring%20Boot-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-Automation-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <br />
 
